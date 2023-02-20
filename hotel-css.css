@@ -216,6 +216,10 @@ text-align: center;
 .col2 .para3{
     grid-area: r3;
 }
+.para3{
+    display: flex;
+    justify-content: space-between;
+}
 
 .col2{
     margin-left: 3vw;
@@ -232,6 +236,7 @@ text-align: center;
     "row3"
     ;
 }
+
 .row1{
     height: 20vh;
     grid-area: row1;
@@ -266,6 +271,10 @@ text-align: center;
 }
 .c1{
  grid-area: new;
+ width: 15vw;
+ height: 22vh;
+ position: absolute;
+ margin-left: 1.6vw;
 }
 .c2{
     grid-area:book;
@@ -276,6 +285,9 @@ text-align: center;
     padding-top: 1.5vh;
     border-radius: 25px;
     background-color: red;
+    position: absolute;
+    margin-top: 15vh;
+    margin-left: 9.5vw;
 }
 .u1{
     display: flex;
@@ -305,4 +317,44 @@ text-align: center;
     align-self: center;
     padding-left: 5px;
     font-size: 10px;
+}
+.stack-image{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+.queue{
+   display: inline-flex;
+
+}
+.stack-image .queue img{
+    width: 20px;
+    height: 20px;
+    border-radius:10px;
+    border: 2px solid white;
+}
+#i1{
+    position: relative;
+    left: 2px;
+    bottom: 1px;
+}
+#i2{
+    position: absolute;
+    margin-left: 12px;
+}
+#i3{
+    position: relative;
+    left:4px;
+}
+#i4{
+    position: absolute;
+    margin-left: 35px;
+}
+#i5{
+    position: relative;
+    left:5px;
+}
+#i6{
+    position: absolute;
+    margin-left: 55px;
 }
